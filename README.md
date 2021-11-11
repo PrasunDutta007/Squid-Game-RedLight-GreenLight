@@ -17,7 +17,7 @@
   
 ## Features
 
-- Body Parts Tracker using Mediapipe
+- Body Parts Tracker using Mediapipe ( Checkout the `landmarks.png` )
 - All the Body Parts below Neck will be considered for this Game. Any movements after Red Light is considered DEAD!!
 - Sound Functionality
 
@@ -32,9 +32,9 @@
 ```
 ```bash
   Open game.py and you may change this code:
-    def make_720p():
+    `def make_720p():
       cap.set(3,1280)
-      cap.set(4,720)
+      cap.set(4,720)`
   According to your Laptop/PC Screen Resolution 
 ```
 ```bash
